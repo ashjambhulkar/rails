@@ -19,7 +19,7 @@ Ruby classes, or Ruby classes that implement a set of interfaces as provided by
 the Active Model module. You can read more about Active Model in its [README](activemodel/README.rdoc).
 
 The _Controller layer_ is responsible for handling incoming HTTP requests and
-providing a suitable response. Usually this means returning HTML, but Rails controllers
+providing a suitable response. Usually, this means returning HTML, but Rails controllers
 can also generate XML, JSON, PDFs, mobile-specific views, and more. Controllers load and
 manipulate models, and render view templates in order to generate the appropriate HTTP response.
 In Rails, incoming requests are routed by Action Dispatch to an appropriate controller, and
@@ -30,7 +30,7 @@ are bundled together in Action Pack. You can read more about Action Pack in its
 The _View layer_ is composed of "templates" that are responsible for providing
 appropriate representations of your application's resources. Templates can
 come in a variety of formats, but most view templates are HTML with embedded
-Ruby code (ERB files). Views are typically rendered to generate a controller response,
+Ruby code (ERB files). Views are typically rendered to generate a controller response
 or to generate the body of an email. In Rails, View generation is handled by Action View.
 You can read more about Action View in its [README](actionview/README.rdoc).
 
